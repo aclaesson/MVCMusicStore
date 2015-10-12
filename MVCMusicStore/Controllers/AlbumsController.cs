@@ -21,7 +21,6 @@ namespace MVCMusicStore.Controllers
             // Let's get the model
 			var albums = db.Albums.ToList();
 
-            string name = "sven";
 			// combine the model with the view and return
 			return View(albums);
         }
